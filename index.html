@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer portfolio</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins?query=poppins">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 62);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(50, 50, 135);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(187, 187, 232);
+            font-size: 1.03rem;
+        }
+
+        main hr {
+            border: 0;
+            margin: 90px 84px;
+            height: 1.1px;
+            background-color: rgb(53, 53, 198);
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+            margin: 0px 0;
+        }
+
+        .leftSection .button{
+            /* padding: 50px; */
+           margin: 90px 0;
+
+          
+        }
+        .leftSection .btn{
+            padding: 10px;
+            background-color: rgb(68, 68, 160);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        
+
+        .purple {
+            color: rgb(122, 143, 229);
+
+
+        }
+
+        #element {
+            color: rgb(122, 143, 229);
+
+        }
+
+        footer {
+            background-color: rgb(5 5 44);
+
+        }
+
+        footer .footer-first {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 6px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">
+                Sahil's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My Name is <span class="purple">Sahil..</span>
+
+                I am a Learning........
+
+                <span id="element"></span>
+                <div class="button">
+                <button class="btn">Download Resume</button>
+                <button class="btn">GitHub</button>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="big.png" alt="" height="350">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <h1></h1>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-first">Sahil's portfolio</div>
+
+        <div class="footer-rights">copyright &#169;sahilshaikhportfolio.com | All rights reserved</div>
+
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['F S Development', 'Artificial Intalligency', 'Machine Learning'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
